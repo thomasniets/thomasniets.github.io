@@ -1,0 +1,196 @@
+.big-header{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin: 25px 20% 0 20%;
+}
+/* .small-header{
+    text-align: justify;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    padding: 0 15% 0 15%;
+} */
+.italic-note{
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 8px;
+}
+.legend-big-column{
+    margin: 0 5% 0 0;
+}
+.legend{
+    width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 420px 1fr 1fr 1fr;
+}
+.legend-inner-grid{
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns:30px minmax(auto,240px);
+    padding: 6px 0 0 0;
+}
+.legend-inner-grid-big{
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns:200px min-content;
+    padding: 0 0 10px 0;
+}
+.legend-text{
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    margin: 12px 20px 0 0;
+    word-wrap: normal;
+}
+.legend-text-inner-grid{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    margin: 0 auto 0 0;
+    word-wrap:normal;
+}
+.legend-square{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.waffle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+  }
+.rect-empty,
+.rect-clicked {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    border: 2px solid white;
+    background-color: #cdcdcd;
+  }
+
+.rect-clicked{
+    word-wrap: break-word;
+    text-align: center;
+    /* pointer-events: none; */
+  }
+.counter{
+    position: sticky;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+    opacity: 95%;
+    width: 1300px;
+    pointer-events: none;
+}
+.counter-text{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    padding: 8px 0 8px 0;
+}
+.tooltip{
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    max-width: 380px;
+    pointer-events: none;
+    box-shadow: 1px 1px 3px 2px #a5a5a5;
+}
+.tooltip-title,
+.tooltip-text,
+.tooltip-example{
+    text-align: left;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    padding: 0 5% 0 5%;
+    word-wrap: normal;
+    margin: 8px;
+}
+.tooltip-text{
+    font-style: italic;
+}
+.tooltip-example{
+    font-size: 13px;
+}
+.text{
+    font-size: 10px;
+    font-family: "Raleway", sans-serif;
+    fill: black;
+}
+.inside-circle{
+    fill: #75cbec;
+    fill-opacity: 0;
+}
+.footer-text{
+    text-align: left;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    color: black;
+    word-wrap: normal;
+    padding: 2px 10% 2px 10%;
+    margin: 0px;
+}
+label{
+    font-style: italic;
+    /* background-color: #e5e4e4; */
+    color: black;
+}
+.qnumber{
+    font-style: italic;
+    background-color: #e5e4e4;
+    color: black;
+    /* border-radius: 8%; */
+}
+/* .qnumber:before{
+    content:"\00a0";
+}
+.qnumber:after{
+    content:"\00a0";
+} */
+input[type=checkbox]{
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    /* accent-color: #75cbec;
+    outline: 1px solid #75cbec; */
+    
+}
+/* .checkbox-square {
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border-radius: 0%;
+    vertical-align: middle;
+    border: 1px solid black;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,.4);
+    margin: 0;
+}
+.checkbox-square:hover {
+    background-color: #cdcdcd;
+  }
+.checkbox-square:checked {
+    background-color: black;
+    border: 1px solid black;
+    box-shadow: none;
+} */
+/* input[type=submit] {
+    width: 150px; 
+    height: 20px;
+    font-size: 16px;
+} */
