@@ -21,32 +21,36 @@
 
     <div class="legend">
         <div class="legend-big-column" style="border-right: 1px solid #a5a5a5">
-            <div class="legend-inner-grid-big">
-                <p class="legend-text">
-                    There are 1404* squares on the screen — each one represents a
+            <p class="legend-text">
+                There are 1404* squares on the screen — each one represents a
                     <a href="https://www.datavisualizationsociety.org/survey">Data Visualization Society SOTI</a>
-                    response.
-                    Hover over a square to learn more about the respondent in the tooltip.
-                </p>
-
-                <div class="tooltip"
-                    style="visibility: visible; position:inherit; width: 160px; padding:1% 0 1% 0; margin: 5% 0 0 0">
-                    <p class="tooltip-example" style="font-weight: 400;">Respondent No: 0</p>
-                    <p class="tooltip-example">Country: <span class="qnumber">Q08</span></p>
-                    <p class="tooltip-example">Secret weapon: <i>"Other" from <span class="qnumber">Q36</span> about
-                            tools</i></p>
-                    <p class="tooltip-example">Inspired by: <span class="qnumber">Q55</span></p>
-                </div>
-            </div>
-
+                    response. Click on any square to flip it along with the similar ones based on criteria of your choice.
+                    Tick the <input type="checkbox" class="checkbox-square" checked >
+                    checkboxes for the variables you want to consider: 
+                    by default only respondents with the same continent and DVS status will get revealed.
+                    <!-- <span style="background-color: #0D83FF; color: white;"></span> -->
+            </p>
             <div class="legend-inner-grid-big">
-                <p class="legend-text">
-                    Squares are sorted based on years of experience in data visualization <span
-                        class="qnumber">Q03</span>.
-                    Click on any square to flip it along with the similar ones based on criteria of your choice.
-                    Just tick the checkboxes you want to take into account.
-                </p>
-                <img src="sort.png" width="180px" />
+                <div>
+                    <p class="legend-text">
+                        Squares are sorted based on years of experience in data visualization 
+                        <span class="qnumber">Q03</span>.
+                    </p>
+                    <img src="sort.png" width="180px" />
+                </div>
+                <div>
+                    <p class="legend-text">
+                        Hover over a square to learn more about the respondent in the tooltip.
+                    </p>
+                    <div class="tooltip"
+                        style="visibility: visible; position:inherit; width: 160px; padding:1% 0 1% 0; margin: 5% 0 0 0">
+                        <p class="tooltip-example" style="font-weight: 400;">Respondent No: 0</p>
+                        <p class="tooltip-example">Country: <span class="qnumber">Q08</span></p>
+                        <p class="tooltip-example">Secret weapon: <i>"Other" from <span class="qnumber">Q36</span> about
+                                tools</i></p>
+                        <p class="tooltip-example">Inspired by: <span class="qnumber">Q55</span></p>
+                    </div>
+                </div>
             </div>
         </div>
 

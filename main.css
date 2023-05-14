@@ -1,3 +1,11 @@
+a { 
+    text-decoration: none; 
+    color: black; 
+    font-weight: 500;
+   }
+a:hover{
+    color: #a5a5a5; 
+}
 .big-header{
     text-align: center;
     font-size: 36px;
@@ -39,7 +47,7 @@
     margin: auto;
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns:200px min-content;
+    grid-auto-columns:1fr;
     padding: 0 0 10px 0;
 }
 .legend-text{
