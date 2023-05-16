@@ -1606,13 +1606,13 @@ const workType = {
     "":""
 };
 const eduLevel = {
-   "Bachelor’s degree":"࠾࠾",
-   "Doctoral degree":"࠾࠾࠾࠾",
-   "Master’s degree":"࠾࠾࠾",
-   "Technical school":"࠾",
-   "Some college":"࠾࠾",
-   "Associate’s degree":"࠾࠾",
-   "High school diploma":"࠾",
+   "Bachelor’s degree":"..",
+   "Doctoral degree":"....",
+   "Master’s degree":"...",
+   "Technical school":".",
+   "Some college":"..",
+   "Associate’s degree":"..",
+   "High school diploma":".",
    "":""
 };
 const genderSymbols = {
